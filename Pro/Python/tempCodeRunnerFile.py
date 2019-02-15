@@ -74,4 +74,3 @@ def Poission(lam,x=None):
 
 
 a = Poission(25)
-print(sum(a))
