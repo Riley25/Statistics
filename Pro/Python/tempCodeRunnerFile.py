@@ -75,5 +75,5 @@ def Binomial(p,n):
     return(y)
 
 
-a = Binomial(.25,16)
+a = Binomial(.60,15)
 print(a)
