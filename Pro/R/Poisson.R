@@ -20,55 +20,6 @@
 #      "n" for no plotting.
 #
 
-library("ggplot2")
-######################
-# Poisson Regression #
-######################
-
-data(elephant)
-pe = elephant
-
-head(pe)
-plot(pe$Number_of_Matings~pe$Age_in_Years)
-lm.pe = lm(pe$Number_of_Matings~pe$Age_in_Years,data = pe)
-abline(lm.pe)
-summary(lm.pe)
-#plot(lm.pe)
-
-
-glm.out=glm(pe$Number_of_Matings~pe$Age_in_Years,family = "poisson",data = pe)
-summary(glm.out)
-
-
-plot(pe$Number_of_Matings~pe$Age_in_Years)
-abline(lm.pe)
-lines(pe$Age_in_Years,glm.out$fitted.values)
-
-
-h=hist(pe$Number_of_Matings,breaks = 200,probability = TRUE)
-h1=h$density/20
-h2 = which(!h1==0)
-h3 = h1[h2]
-
-
-plot(h3,type = 'l')
-lines(ans$`p(x)`)
-
-mate_norm = pe$Number_of_Matings/sum(pe$Number_of_Matings)
-hea
-
-points(seq(0,9),ans$`p(x)`,type = 'l',col='red')
-
-
-attach(pe)
-newdata = data.frame(
-  "Age_in_Years" = 35
-)
-
-#THESE ARE JUST FITTED VALUES
-#pred = predict(glm.out,type = "response")
-lines(pe$Age_in_Years,pred,col=5)
-
 ####################
 # Poisson Function #
 ####################
