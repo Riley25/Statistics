@@ -21,7 +21,7 @@ Where:
 
 **The geometric is a special case for the Negative Binomial w/ r = 1**
 
-![](https://github.com/Riley25/Stats-Distribution/blob/master/images/neg_bin.png)
+![](https://github.com/Riley25/Statistics/blob/master/Images/neg_bin.png)
 
 *example: p = .16666 and n=10. Black line is r=1, red r = 2, green r=3, ... light blue r=6*
 
@@ -35,7 +35,7 @@ Where:
 
 + n = number of trials
 
-![](https://github.com/Riley25/Stats-Distribution/blob/master/images/bin_dist.png)
+![](https://github.com/Riley25/Statistics/blob/master/Images/bin_dist.png)
 
 *example: n=20, p=.16666*
 
@@ -48,7 +48,7 @@ Where:
 
 + <a href="https://www.codecogs.com/eqnedit.php?latex=\lambda" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\lambda" title="\lambda" /></a> = E[X] = VAR[X]
 
-![](https://github.com/Riley25/Stats-Distribution/blob/master/images/Rplot_p.png)
+![](https://github.com/Riley25/Statistics/blob/master/Images/Rplot_p.png)
 
 *example: lambda = 3.5*
 
