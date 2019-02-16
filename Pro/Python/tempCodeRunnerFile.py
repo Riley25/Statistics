@@ -56,7 +56,7 @@ def Binomial(p,n):
         #denominator = factorial_function(ni) * math.exp(p)
         #y[i] = numerator / denominator
         y_i = ((factorial_function(n))/(factorial_function(x[i]) * factorial_function(n-x[i]))) * p**x[i] * (1-p)**(n-x[i])
-        y[i] = round(y_i,ndigits=4)
+        y[i] = round(y_i,ndigits=2)
 
     # plotting the points  
     fig, ax = plt.subplots()
