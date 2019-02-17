@@ -75,5 +75,5 @@ def Binomial(p,n):
     return(y)
 
 
-a = Binomial((1/6),10)
+a = Binomial(.166,10)
 print(a)
