@@ -75,5 +75,5 @@ def Binomial(p,n):
     return(y)
 
 
-a = Binomial(.166,10)
+a = Binomial(.50,4)
 print(a)
