@@ -9,7 +9,10 @@ Recall:
 ## This is the Negative Binomial. 
 
 Where:
+
 ![](https://github.com/Riley25/Statistics/blob/master/Images/n_choose_k.png)
+
+and 
 
 ![](https://github.com/Riley25/Statistics/blob/master/Images/Negative_Binomial.png)
 
@@ -29,6 +32,7 @@ Where:
 ## This is the Binomial.
 
 Where:
+
 ![](https://github.com/Riley25/Statistics/blob/master/Images/binomial.png)
 
 
