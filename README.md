@@ -11,7 +11,7 @@ Recall:
 Where:
 ![](https://github.com/Riley25/Statistics/blob/master/Images/n_choose_k.png)
 
-![](https://github.com/Riley25/Statistics/blob/master/Images/Negative Binomial.png)
+![](https://github.com/Riley25/Statistics/blob/master/Images/Negative_Binomial.png)
 
 
 + x = Number of Failures untill the r success
